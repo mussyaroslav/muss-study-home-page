@@ -1,0 +1,149 @@
+@charset "UTF-8";
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #0E0E10;
+  background: #f5f5f5;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+
+/* Header*/
+.header {
+  background: #fff;
+  height: 50px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  /* высота хедера */
+}
+
+.nav__ul {
+  /* Меню навигации слева*/
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+  width: 507px;
+  /* было 385 + 123 логотип гугл и + 30 паддинг между лого и ссылкой*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #0E0E10;
+}
+
+.nav__link:hover {
+  color: #ef233c;
+  -webkit-transition: all .12s linear;
+  transition: all .12s linear;
+}
+
+/* Логотип*/
+.logo {
+  /* Картинка размер*/
+  height: 30px;
+}
+
+.logo__link {
+  /* Ссылка на картинку с переходом на главную*/
+  height: 30px;
+}
+
+.logo__inner {
+  /* Размер блока с логотипом*/
+  height: 30px;
+}
+
+/* Правая часть хедера */
+.login__register {
+  font-size: 13px;
+  font-weight: 600;
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.login {
+  text-decoration: none;
+  color: #0E0E10;
+  border: 1px solid #ebebeb;
+  background-color: #ebebeb;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.login:hover {
+  border: 1px solid #dadada;
+  background-color: #dadada;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-transition: all .12s linear;
+  transition: all .12s linear;
+}
+
+.register {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #ef233c;
+  background-color: #ef233c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.register:hover {
+  border: 1px solid #d90429;
+  background-color: #d90429;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-transition: all .12s linear;
+  transition: all .12s linear;
+}
+
+/* Линия под хедером*/
+.line__under__header {
+  margin: 0;
+  border: none;
+  color: #ddd;
+  background-color: #ddd;
+  height: 1px;
+}
+/*# sourceMappingURL=style.css.map */

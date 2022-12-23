@@ -1,0 +1,258 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: #0E0E10;
+    background: #f5f5f5;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.login__container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__block {
+    width: 400px;
+    height: 440px;
+    background: #fff;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+    padding: 30px 20px;
+    display: block;
+}
+
+.login__logo {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__header {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login__or__register {
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #ddd 1px solid;
+    margin-top: 10px;
+}
+
+.login__or__register__block {
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    text-decoration: none;
+    color: #EF233C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: #EF233C 2px solid;
+}
+
+.register {
+    color: #0E0E10;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login__main__block {
+    height: 200px;
+    margin-top: 25px;
+}
+
+.username__main__block {
+    height: 55px;
+    position: relative;
+}
+
+.username__block {
+    position: absolute;
+    top: 0;
+}
+
+.username {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.username__input__block {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.username__input {
+    width: 100%;
+    padding: 5px 10px;
+    border: #DADADA 2px solid;
+    border-radius: 5px;
+}
+
+.password__main__block {
+    margin-top: 15px;
+    height: 55px;
+    position: relative;
+}
+
+.password__block {
+    position: absolute;
+    top: 0;
+}
+
+.password {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.password__input__block {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.password__input {
+    width: 100%;
+    padding: 5px 10px;
+    border: #DADADA 2px solid;
+    border-radius: 5px;
+}
+
+.password__input:focus {
+    outline: none;
+    border-color: #EF233C;
+}
+
+.username__input:focus {
+    outline: none;
+    border-color: #EF233C;
+}
+
+.problem__block {
+    margin-top: 5px;
+}
+
+.problem {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #EF233C;
+}
+
+.problem:hover {
+    color: #d90429;
+}
+
+.login__btn {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #EF233C;
+    border: #EF233C;
+    border-radius: 5px;
+    width: 100%;
+    height: 28px;
+    margin-top: 10px;
+}
+
+.login__btn:focus {
+    outline: none;
+}
+
+.login__btn:hover {
+    background: #d90429;
+    border: #d90429;
+}
+
+.block__or {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.or {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.border__left__or {
+    height: 11px;
+    width: 45%;
+    border-bottom: 1px #ddd solid;
+}
+
+.border__right__or {
+    height: 11px;
+    width: 45%;
+    border-bottom: 1px #ddd solid;
+}
+
+.vk__login__block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vk__login__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 215px;
+    background: #3069A5;
+    border: #3069A5;
+    border-radius: 5px;
+    padding: 0px 15px;
+    height: 28px;
+    text-decoration: none;
+}
+
+.vk__title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.vk__img__block {
+    height: 24px;
+    width: 24px;
+}
+
+.vk__img {
+    height: 24px;
+    border-radius: 5px;
+}
+
+.vk__login__btn:focus {
+    outline: none;
+}
+
+.vk__login__btn:hover {
+    border-color: #275280;
+    background: #275280;
+}

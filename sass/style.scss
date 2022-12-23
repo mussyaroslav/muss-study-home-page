@@ -1,0 +1,127 @@
+@import "variables";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: $text__color;
+    background: #f5f5f5;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+/* Header*/
+
+.header {
+    background: #fff;
+    height: 50px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px; /* высота хедера */
+}
+
+.nav__ul { /* Меню навигации слева*/
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    width: 507px; /* было 385 + 123 логотип гугл и + 30 паддинг между лого и ссылкой*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: $text__color;
+}
+
+.nav__link:hover {
+    color: $button__red;
+    transition: all .12s linear;
+}
+
+/* Логотип*/
+
+.logo { /* Картинка размер*/
+    height: 30px;
+}
+
+.logo__link { /* Ссылка на картинку с переходом на главную*/
+    height: 30px;
+}
+
+.logo__inner { /* Размер блока с логотипом*/
+    height: 30px;
+}
+
+/* Правая часть хедера */
+
+.login__register {
+    font-size: 13px;
+    font-weight: 600;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    text-decoration: none;
+    color: #0E0E10;
+    border: 1px solid $button__grey;
+    background-color: $button__grey;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login:hover {
+    border: 1px solid $button__grey__hover;
+    background-color: $button__grey__hover;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all .12s linear;
+}
+
+.register {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid $button__red;
+    background-color: $button__red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.register:hover {
+    border: 1px solid $button__red__hover;
+    background-color: $button__red__hover;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all .12s linear;
+}
+
+/* Линия под хедером*/
+
+.line__under__header {
+    margin: 0;
+    border: none;
+    color: #ddd;
+    background-color: #ddd;
+    height: 1px;
+}
